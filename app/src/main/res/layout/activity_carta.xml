@@ -210,6 +210,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/LOADb"
         app:layout_constraintEnd_toEndOf="@+id/son"
+        android:onClick="onClick"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <Button

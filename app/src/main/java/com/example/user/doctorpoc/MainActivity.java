@@ -5,11 +5,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 
 public  class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button BMed,Bzdor,Bactiv,Bpita,Bvred;
+
 
 
 
@@ -41,6 +43,7 @@ public  class MainActivity extends AppCompatActivity implements View.OnClickList
 
 
 
+
     }
 
 
@@ -63,6 +66,7 @@ public  class MainActivity extends AppCompatActivity implements View.OnClickList
             case R.id.ButVRE:
                 Intent intent3 = new Intent(this, Vred.class);
                 startActivity(intent3);
+
                 break;
             case R.id.ButACT:
                 Intent intent4 = new Intent(this, Activ.class);
